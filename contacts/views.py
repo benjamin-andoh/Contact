@@ -1,7 +1,5 @@
 from rest_framework import permissions
-from rest_framework.generics import ListCreateAPIView, \
-    RetrieveUpdateDestroyAPIView
-
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from contacts.models import Contact
 from contacts.serializers import ContactSerializer
 
